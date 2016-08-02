@@ -1,4 +1,4 @@
-package com.example.user.catcher.Login;
+package com.example.user.catcher.login;
 
 import android.app.Activity;
 import android.content.Intent;
