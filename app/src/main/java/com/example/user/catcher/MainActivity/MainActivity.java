@@ -1,9 +1,10 @@
-package com.example.user.catcher.MainActivity;
+package com.example.user.catcher.mainActivity;
 
-import android.app.Activity;
+
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by user on 2016/7/19.
  */
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 }
