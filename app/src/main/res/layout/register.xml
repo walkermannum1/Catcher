@@ -11,7 +11,18 @@
         android:textColor="#FFFFFF"
         android:paddingLeft="140dp"
         android:paddingRight="50dp"
-        android:paddingTop="10dp"/>
+        android:paddingTop="10dp"
+        android:clickable="false" />
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/button"
+        android:layout_weight="0.5" />
 
     <EditText
         android:id="@+id/register"
@@ -21,9 +32,22 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:height="50dp"
-        android:hint="Username"/>
+        android:hint="Username"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <EditText
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/button2"
+            android:layout_weight="1" />
+
+        <EditText
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,16 +55,36 @@
         android:paddingRight="20dp"
         android:paddingLeft="20dp"
         android:height="50dp"
-        android:hint="Password"/>
+        android:hint="Password"
+        android:layout_gravity="center_horizontal"
+            android:inputType="numberPassword"
+            android:password="true" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/confirm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:paddingLeft="20dp"
-        android:paddingRigh="20dp"
-        android:height="50dp"
-        android:hint="confirm your password"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:id="@+id/button4"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:height="50dp"
+            android:hint="confirm password"
+            android:layout_gravity="center_horizontal"
+            android:inputType="numberPassword"
+            android:password="true" />
+    </LinearLayout>
 
 </LinearLayout>

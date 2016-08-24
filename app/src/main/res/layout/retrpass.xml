@@ -6,9 +6,43 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="40dp"
+        android:paddingTop="10dp"
         android:text="Retrive Password"
-        android:layout_gravity="center_horizontal"
-        />
+        android:fontFamily="@string/abc_capital_off"
+        android:focusable="true"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:textIsSelectable="false"
+        android:textColor="#54cfe7"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:id="@+id/button3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_weight="1"
+            android:editable="true"
+            android:hint="Put your e-mail" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:text="Next step"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>
