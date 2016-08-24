@@ -15,9 +15,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.user.catcher.MainActivity.MainActivity;
+import com.example.user.catcher.mainActivity.MainActivity;
 import com.example.user.catcher.R;
-import com.example.user.catcher.Register.Register;
+import com.example.user.catcher.register.Register;
 
 
 /**

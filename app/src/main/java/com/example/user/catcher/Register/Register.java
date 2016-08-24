@@ -1,4 +1,4 @@
-package com.example.user.catcher.Register;
+package com.example.user.catcher.register;
 
 /**
  * Created by user on 2016/7/14.
